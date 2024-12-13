@@ -43,7 +43,7 @@ footer {
 
 .button {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #0078d4;
     background-image: linear-gradient(to bottom, #0078d4, #005a9e); /* Gradient background */
     color: white;
