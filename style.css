@@ -42,18 +42,22 @@ footer {
 }
 
 .button {
-    display: flex; /* Changed to flex for container flexibility */
-    flex-direction: column; /* Stack text vertically */
+    display: flex;
+    flex-direction: column;
     background-color: #0078d4;
+    background-image: linear-gradient(to bottom, #0078d4, #005a9e); /* Gradient background */
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px; /* Slightly larger padding */
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 12px; /* More rounded corners */
     margin: 10px;
     text-align: center;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .button:hover {
-    background-color: #005a9e;
+    background-color: #006bb3;
+    background-image: linear-gradient(to bottom, #006bb3, #004a86); /* Hover gradient */
+    transform: translateY(-2px); /* Slight lift effect */
 }
