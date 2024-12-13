@@ -38,3 +38,17 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.button {
+    display: block;
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.button:hover {
+    background-color: #005a9e;
+}
