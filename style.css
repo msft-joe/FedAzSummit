@@ -18,6 +18,8 @@ h1 {
 }
 
 section {
+    display: flex; /* Added flex display */
+    justify-content: space-around; /* Distribute buttons evenly */
     padding: 20px;
     margin: 20px;
     background-color: white;
@@ -40,15 +42,16 @@ footer {
 }
 
 .button {
-    display: inline-block; /* Changed to inline-block for flexibility */
+    display: flex; /* Changed to flex for container flexibility */
+    flex-direction: column; /* Stack text vertically */
     background-color: #0078d4;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 8px;
     margin: 10px;
-    text-align: center; /* Align text center */
-    transition: background-color 0.3s; /* Smooth hover transition */
+    text-align: center;
+    transition: background-color 0.3s;
 }
 
 .button:hover {
