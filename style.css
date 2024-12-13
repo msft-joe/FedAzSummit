@@ -60,6 +60,6 @@ footer {
 
 .button:hover {
     background-color: #7FF000;
-    background-image: linear-gradient(to bottom, #006bb3, #004a86); /* Hover gradient */
+    background-image: linear-gradient(to bottom, #006bb3, #7FFF00); /* Hover gradient */
     transform: translateY(-2px); /* Slight lift effect */
 }
