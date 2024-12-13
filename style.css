@@ -40,13 +40,15 @@ footer {
 }
 
 .button {
-    display: block;
+    display: inline-block; /* Changed to inline-block for flexibility */
     background-color: #0078d4;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 8px;
-    margin: 10px 0;
+    margin: 10px;
+    text-align: center; /* Align text center */
+    transition: background-color 0.3s; /* Smooth hover transition */
 }
 
 .button:hover {
