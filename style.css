@@ -39,7 +39,7 @@ footer {
     bottom: 0;
 }
 
-button {
+.button {
     display: block;
     background-color: #0078d4;
     color: white;
@@ -49,6 +49,6 @@ button {
     margin: 10px 0;
 }
 
-button:hover {
+.button:hover {
     background-color: #005a9e;
 }
