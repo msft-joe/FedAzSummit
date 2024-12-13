@@ -52,7 +52,6 @@ footer {
     border-radius: 12px; /* More rounded corners */
     margin: 10px;
     text-align: center;
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
