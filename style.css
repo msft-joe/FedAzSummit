@@ -46,7 +46,7 @@ footer {
     flex-direction: column; /* Ensure buttons' content is stacked vertically */
     background-color: #0078d4;
     background-image: linear-gradient(to bottom, #0078d4, #005a9e); /* Gradient background */
-    color: white;
+    color: white; /* Make text visible */
     padding: 12px 24px; /* Slightly larger padding */
     text-decoration: none;
     border-radius: 12px; /* More rounded corners */
