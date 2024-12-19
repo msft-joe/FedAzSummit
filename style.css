@@ -75,3 +75,35 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .button {
+        padding: 15px;
+        font-size: 1em;
+    }
+
+    .button h2 {
+        font-size: 1.2em;
+    }
+
+    .button p {
+        font-size: 0.9em;
+    }
+}
